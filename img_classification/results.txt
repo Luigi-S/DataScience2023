@@ -1,0 +1,48 @@
+Accuracy: 0.74 	 ---> DecisionTreeClassifier 
+Accuracy: 0.8 	 ---> RandomForestClassifier 
+Accuracy: 0.81 	 ---> GradientBoostingClassifier 
+[0.7393889783034033, 0.7914345212036593, 0.8075835464656155]
+
+[0.00527235156705989, 0.0075828448814030894, 0.006111029201027528]
+
+C:\Users\User\PycharmProjects\data_science\classification.py:238: FutureWarning: 
+
+
+DecisionTreeClassifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.75      0.74      6185
+           1       0.74      0.73      0.74      6185
+
+    accuracy                           0.74     12370
+   macro avg       0.74      0.74      0.74     12370
+weighted avg       0.74      0.74      0.74     12370
+
+RandomForestClassifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.81      0.80      6185
+           1       0.80      0.79      0.80      6185
+
+    accuracy                           0.80     12370
+   macro avg       0.80      0.80      0.80     12370
+weighted avg       0.80      0.80      0.80     12370
+
+GradientBoostingClassifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.79      0.80      6185
+           1       0.80      0.82      0.81      6185
+
+    accuracy                           0.81     12370
+   macro avg       0.81      0.81      0.81     12370
+weighted avg       0.81      0.81      0.81     12370
+
+
+Fitting 10 folds for each of 108 candidates, totalling 1080 fits
+Fitting 10 folds for each of 54 candidates, totalling 540 fits
+Fitting 10 folds for each of 72 candidates, totalling 720 fits
+
+
+score without GridSearchCV:  0.739 0.791 0.808
+score with GridSearchCV:  0.802 0.811 0.811

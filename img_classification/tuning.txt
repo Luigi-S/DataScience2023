@@ -1,0 +1,30 @@
+ridge + extratree = 59.53521800227441
+
+ridge + randforest = 58.618238191091585
+
+ridge + knn = 57.6596463497497
++scaling: 51.13786391658928
++(k=20 == tuning): 50.86634284453363 :)	
++(si è scoperto che il ridge alpha =1.0, il valore di default, è anche l'ottimale)
+
++minmaxscaling = 48.92793081674039 === mi fermerei qui... mi sembra buono...
+
+
+ridge + mlp = 55.73098974850167 but shaky
+55.26988401414994
+===========================================
+
+lasso + extratree = 64.4119945359166
+
+
+lasso + randomforest = 63.531616309297284
+
+lasso + knn = 62.08366832474252
+
+lasso + mlp = 59.9322329907439
+
+===========================================
+
+elasticnet + extratree
+
+en + mlp = 67.4971203173477 
